@@ -18,7 +18,13 @@
 		99B1D3B41964003700E907C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B1D3991964003600E907C3 /* Foundation.framework */; };
 		99B1D3B51964003700E907C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B1D39D1964003600E907C3 /* UIKit.framework */; };
 		99B1D3BD1964003700E907C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99B1D3BB1964003700E907C3 /* InfoPlist.strings */; };
-		99B1D3BF1964003700E907C3 /* MarvelAPIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3BE1964003700E907C3 /* MarvelAPIDemoTests.m */; };
+		99B1D3CA1964005600E907C3 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3C91964005600E907C3 /* NSString+MD5.m */; };
+		99B1D3CC196400A500E907C3 /* NSString+MD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */; };
+		99B1D3CF1964027C00E907C3 /* MarvelAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */; };
+		99B1D3D11964041900E907C3 /* MarvelAPIHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */; };
+		FE25A679196AA64E0006E588 /* SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = FE25A678196AA64E0006E588 /* SuperHero.m */; };
+		FE25A67B196AA9060006E588 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE25A67A196AA9060006E588 /* Storyboard.storyboard */; };
+		FE25A67E196AA9570006E588 /* CosaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE25A67D196AA9570006E588 /* CosaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,17 @@
 		99B1D3B21964003700E907C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		99B1D3BA1964003700E907C3 /* MarvelAPIDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarvelAPIDemoTests-Info.plist"; sourceTree = "<group>"; };
 		99B1D3BC1964003700E907C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		99B1D3BE1964003700E907C3 /* MarvelAPIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIDemoTests.m; sourceTree = "<group>"; };
+		99B1D3C81964005600E907C3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		99B1D3C91964005600E907C3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Tests.m"; sourceTree = "<group>"; };
+		99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarvelAPIHelper.h; sourceTree = "<group>"; };
+		99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIHelper.m; sourceTree = "<group>"; };
+		99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIHelperTests.m; sourceTree = "<group>"; };
+		FE25A677196AA64E0006E588 /* SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHero.h; sourceTree = "<group>"; };
+		FE25A678196AA64E0006E588 /* SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHero.m; sourceTree = "<group>"; };
+		FE25A67A196AA9060006E588 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FE25A67C196AA9570006E588 /* CosaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CosaViewController.h; sourceTree = "<group>"; };
+		FE25A67D196AA9570006E588 /* CosaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CosaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +127,15 @@
 				99B1D3A91964003600E907C3 /* AppDelegate.m */,
 				99B1D3AB1964003600E907C3 /* Images.xcassets */,
 				99B1D3A01964003600E907C3 /* Supporting Files */,
+				99B1D3C81964005600E907C3 /* NSString+MD5.h */,
+				99B1D3C91964005600E907C3 /* NSString+MD5.m */,
+				99B1D3CD1964027C00E907C3 /* MarvelAPIHelper.h */,
+				99B1D3CE1964027C00E907C3 /* MarvelAPIHelper.m */,
+				FE25A677196AA64E0006E588 /* SuperHero.h */,
+				FE25A678196AA64E0006E588 /* SuperHero.m */,
+				FE25A67A196AA9060006E588 /* Storyboard.storyboard */,
+				FE25A67C196AA9570006E588 /* CosaViewController.h */,
+				FE25A67D196AA9570006E588 /* CosaViewController.m */,
 			);
 			path = MarvelAPIDemo;
 			sourceTree = "<group>";
@@ -129,8 +154,9 @@
 		99B1D3B81964003700E907C3 /* MarvelAPIDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				99B1D3BE1964003700E907C3 /* MarvelAPIDemoTests.m */,
 				99B1D3B91964003700E907C3 /* Supporting Files */,
+				99B1D3CB196400A500E907C3 /* NSString+MD5Tests.m */,
+				99B1D3D01964041900E907C3 /* MarvelAPIHelperTests.m */,
 			);
 			path = MarvelAPIDemoTests;
 			sourceTree = "<group>";
@@ -221,6 +247,7 @@
 			files = (
 				99B1D3A41964003600E907C3 /* InfoPlist.strings in Resources */,
 				99B1D3AC1964003600E907C3 /* Images.xcassets in Resources */,
+				FE25A67B196AA9060006E588 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B1D3CF1964027C00E907C3 /* MarvelAPIHelper.m in Sources */,
+				99B1D3CA1964005600E907C3 /* NSString+MD5.m in Sources */,
+				FE25A67E196AA9570006E588 /* CosaViewController.m in Sources */,
+				FE25A679196AA64E0006E588 /* SuperHero.m in Sources */,
 				99B1D3AA1964003600E907C3 /* AppDelegate.m in Sources */,
 				99B1D3A61964003600E907C3 /* main.m in Sources */,
 			);
@@ -248,7 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B1D3BF1964003700E907C3 /* MarvelAPIDemoTests.m in Sources */,
+				99B1D3CC196400A500E907C3 /* NSString+MD5Tests.m in Sources */,
+				99B1D3D11964041900E907C3 /* MarvelAPIHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +469,7 @@
 				99B1D3C41964003700E907C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B1D3C51964003700E907C3 /* Build configuration list for PBXNativeTarget "MarvelAPIDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +478,7 @@
 				99B1D3C71964003700E907C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
